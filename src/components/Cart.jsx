@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, emptyCart }) => {
 
 if (cart.length === 0  ) return
 
@@ -19,7 +19,7 @@ if (cart.length === 0  ) return
                 </ul>
                 <hr className='hr' />
                 <p className='totalPrice'>Toplam Tutar</p>
-                <button className='emptyCart'>Sepeti Boşalt</button>
+                <button className='emptyCart'onClick={emptyCart} >Sepeti Boşalt</button>
             </div>
             </>
 

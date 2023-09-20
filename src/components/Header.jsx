@@ -2,7 +2,7 @@ import React from 'react'
 import '../css/Header.css'
 
 
-export const Header = () => {
+ const Header = ({cart}) => {
   return (
     <>
     <div className="header">
@@ -13,11 +13,9 @@ export const Header = () => {
        <a href="">Kedi Mamaları</a>
        <a href="">Kedi Kumları</a>
        </div>
-
-       <div className="pawicon"> 
-      <a href=""><img src="src/images/icons8-paw-35.png" alt="" /></a> 
-          <span className='itemsInCart'>0</span>
-       </div>
+     
+     <cartIcon cart={cart} />
+       
         </div>
      </>
     
