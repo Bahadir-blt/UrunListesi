@@ -15,7 +15,7 @@ const productData = [
     },
     {
         id: 3,
-        name: 'ProPlan True Nature Kedi Maması',
+        name: 'ProPlan True Nature Kısırlaştırlmış Kedi Maması',
         price: '768 ₺',
         stock: 3 ,
         image: 'src/images/Pro Plan.jpeg' ,

@@ -36,6 +36,7 @@
    padding: 16px;
    border-radius: 1px solid black ;
    width: 100%;
+   cursor: pointer;
 }
 
 .addToBasket:hover {
