@@ -1,0 +1,34 @@
+.Cart{
+    
+    border: 1px solid black;
+    margin-left: auto;
+    width: 300px;
+    padding: 20px;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.Basket{
+ margin-bottom: 6px;
+}
+
+ul .SpanTwo{
+ 
+    margin-top: 4px;
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.emptyCart{
+    margin-top: 8px;
+    background-color: red;
+    color: #fff;
+    padding: 8px 4px;
+    border-radius: 5px;
+    width: 100%;
+}
+.emptyCart:hover{
+    background-color: rgb(131, 24, 24);
+    transition: 5ms;
+}
