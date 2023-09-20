@@ -2,8 +2,8 @@ import React from 'react'
 import '../css/cart.css'
 
 const Cart = ({ cart, emptyCart }) => {
-
-if (cart.length === 0  ) return
+    const totalPrice = cart.reduce ((acc, item) =>acc+ item.price , 0 )  ;
+    if (cart.length === 0  ) return
 
     return (
         <>
@@ -18,7 +18,7 @@ if (cart.length === 0  ) return
                     ))}
                 </ul>
                 <hr className='hr' />
-                <p className='totalPrice'>Toplam Tutar</p>
+                <p className='totalPrice'>Toplam Tutar : {totalPrice} </p>
                 <button className='emptyCart'onClick={emptyCart} >Sepeti Boşalt</button>
             </div>
             </>

@@ -1,6 +1,8 @@
 .header {
-    display: inline-flex;
+    display:flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
 }
 
 .mainTitle {
@@ -25,23 +27,34 @@ span {
     text-decoration: none;
     color: orange;
 }
-
-.pawicon {
+.icon{
     position: relative;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: 550px;
 }
 
-.pawicon .itemsInCart {
-    display: flex;
-    width: 20px;
-    height: 20px;
+.pawicon {
+    font-size: 24px;
+    line-height: 32px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 4px;
+    margin-top: 10px;
+    margin-left: 600px;
+    
+}
+
+.pawIconSpan{
+    margin: 5px 590px;
+    position: absolute;
     background-color: orange;
     color: #fff;
-    border-radius: 100%;
+    display: flex;
+    width: 15px;
+    height: 15px;
     justify-content: center;
-    position: absolute;
+    align-items: center;
+    border-radius: 100%;
     top: -8px;
-    
+  
 }
