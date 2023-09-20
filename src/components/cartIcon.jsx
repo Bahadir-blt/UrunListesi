@@ -3,13 +3,16 @@ import { PiPawPrintLight } from "react-icons/pi"
 import '../css/Header.css'
 
 
- const cartIcon = () => {
+ const cartIcon = ({cart}) => {
   return (
     <> 
     <div className="icon">
     <PiPawPrintLight className='pawicon' />
-    <span className='pawIconSpan'>0</span>
- </div></>
+    {cart.length > 0 &&
+     <span className='pawIconSpan'> { cart.lenght } 
+     </span> }
+ </div>
+ </>
    
   );
 };

@@ -7,7 +7,7 @@ import '../css/Products.css'
     setCart((prevState) => [...prevState, product])
   };
  
-
+ 
   return (
     <>
      <div className='item'>
@@ -24,4 +24,4 @@ import '../css/Products.css'
 };
 
 
-export default ProductItem
+export default ProductItem ;

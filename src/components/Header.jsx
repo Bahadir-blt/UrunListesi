@@ -15,7 +15,7 @@ const Header = ({ cart }) => {
                <a href="">Kedi Mamaları</a>
                <a href="">Kedi Kumları</a>
             </div>
-          <CartIcon  />
+          <CartIcon  cart={cart} />
          </div>
       </>
 

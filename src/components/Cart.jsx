@@ -2,8 +2,10 @@ import React from 'react'
 import '../css/cart.css'
 
 const Cart = ({ cart, emptyCart }) => {
-    const totalPrice = cart.reduce ((acc, item) =>acc+ item.price , 0 )  ;
-    if (cart.length === 0  ) return
+const total = cart.reduce(( acc, item) => acc + item.price, 0) ;
+
+
+    if (cart.length === 0 ) return ;
 
     return (
         <>
@@ -18,7 +20,7 @@ const Cart = ({ cart, emptyCart }) => {
                     ))}
                 </ul>
                 <hr className='hr' />
-                <p className='totalPrice'>Toplam Tutar : {totalPrice} </p>
+                <p className='totalPrice'>Toplam Tutar : {total} </p>
                 <button className='emptyCart'onClick={emptyCart} >Sepeti Boşalt</button>
             </div>
             </>
