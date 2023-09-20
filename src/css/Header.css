@@ -1,5 +1,5 @@
 .header {
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
@@ -27,7 +27,8 @@ span {
     text-decoration: none;
     color: orange;
 }
-.icon{
+
+.icon {
     position: relative;
 }
 
@@ -41,10 +42,10 @@ span {
     margin-right: 4px;
     margin-top: 10px;
     margin-left: 600px;
-    
+
 }
 
-.pawIconSpan{
+.pawIconSpan {
     margin: 5px 590px;
     position: absolute;
     background-color: orange;
@@ -56,5 +57,5 @@ span {
     align-items: center;
     border-radius: 100%;
     top: -8px;
-  
+
 }
