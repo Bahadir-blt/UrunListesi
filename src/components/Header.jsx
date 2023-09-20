@@ -13,6 +13,11 @@ export const Header = () => {
        <a href="">Kedi Mamaları</a>
        <a href="">Kedi Kumları</a>
        </div>
+
+       <div className="pawicon"> 
+      <a href=""><img src="src/images/icons8-paw-35.png" alt="" /></a> 
+          <span className='itemsInCart'>0</span>
+       </div>
         </div>
      </>
     

@@ -4,6 +4,7 @@
 }
 
 .mainTitle {
+    margin: 0 auto;
     color: orange;
 }
 
@@ -23,4 +24,24 @@ span {
 .categoryOne a {
     text-decoration: none;
     color: orange;
+}
+
+.pawicon {
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
+.pawicon .itemsInCart {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 100%;
+    justify-content: center;
+    position: absolute;
+    top: -8px;
+    
 }
