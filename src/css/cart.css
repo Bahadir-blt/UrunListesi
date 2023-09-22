@@ -1,11 +1,25 @@
 .Cart{
-    
-    border: 1px solid black;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
     margin-left: auto;
-    width: 500px;
-    padding: 20px;
-    margin-top: 8px;
+    width: 300px;
+    padding:  15px ;
     border-radius: 5px;
+    opacity: 0.9;
+   
+}
+.Cart::before{
+   content: '';
+   position: absolute;
+   top: -0.6rem;
+   right: 0.5rem;
+   width: 15px;
+   height: 15px;
+   transform: rotate(45deg);
+   background-color: #f6f6f6;
+   opacity: 0.9;
+   border-left: 1px solid gray;
+   border-top: 1px solid gray;
 }
 .Basket{
  margin-bottom: 6px;

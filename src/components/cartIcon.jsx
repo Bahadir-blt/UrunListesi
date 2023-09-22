@@ -4,13 +4,14 @@ import '../css/Header.css'
 
 
  const cartIcon = ({cart}) => {
+  
   return (
     <> 
     <div className="icon">
-    <PiPawPrintLight className='pawicon' />
-    {cart.length > 0 &&
-     <span className='pawIconSpan'> { cart.lenght } 
-     </span> }
+    <PiPawPrintLight  className='pawicon' />
+    { cart.length > 0 &&  <span className='pawIconSpan'>{ cart.length }</span> 
+     }
+    
  </div>
  </>
    

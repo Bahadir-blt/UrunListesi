@@ -1,3 +1,7 @@
+*{
+    background-color: rgb(249, 247, 247);
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -41,7 +45,7 @@ span {
     cursor: pointer;
     margin-right: 4px;
     margin-top: 10px;
-    margin-left: 600px;
+    margin-left: 570px;
 
 }
 
@@ -51,8 +55,8 @@ span {
     background-color: orange;
     color: #fff;
     display: flex;
-    width: 15px;
-    height: 15px;
+    width:20px;
+    height: 20px;
     justify-content: center;
     align-items: center;
     border-radius: 100%;

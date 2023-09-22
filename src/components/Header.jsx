@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import '../css/Header.css'
 import CartIcon from './cartIcon';
 
 
 const Header = ({ cart }) => {
+  
    return (
       <>
          <div className="header">
@@ -17,6 +18,7 @@ const Header = ({ cart }) => {
             </div>
           <CartIcon  cart={cart} />
          </div>
+         
       </>
 
    )
