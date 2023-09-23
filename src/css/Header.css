@@ -4,12 +4,14 @@
 
 .header {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     margin-bottom: 6px;
 }
 
 .mainTitle {
+    
     margin: 0 auto;
     color: orange;
 }
@@ -23,7 +25,7 @@ span {
     text-decoration: none;
     display: inline-flex;
     margin-top: 10px;
-    margin-left: 300px;
+    margin-left: 150px;
     gap: 20px;
 }
 
